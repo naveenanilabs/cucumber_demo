@@ -2,13 +2,13 @@ Feature: guru99 Demopage Login
 
 In order to Login in Demopage we have to enter login details
 
-Scenario: Register On Guru99 Demopage without email
+Scenario: Login On Licio
 
-Given I am on the Guru99 homepage
+Given I am on the Licio homepage
 
-When enter blank details for Register
+When  enter details for login
 
-Then error email shown
+Then compute the count
 
 Scenario: Register On Guru99 Demopage with valid email
 
