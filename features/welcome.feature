@@ -2,13 +2,13 @@ Feature: Liscio Login
 
 In order to Login in Homepage we have to enter login details
 
-Scenario: Login On Liscio Homepage without email
+Scenario: Login On Licio
 
-Given I am on the Liscio homepage
+Given I am on the Licio homepage
 
-When enter blank details for Login
+When  enter details for login
 
-Then error email shown
+Then compute the count
 
 Scenario: Login On Liscio Homepage with valid email
 
