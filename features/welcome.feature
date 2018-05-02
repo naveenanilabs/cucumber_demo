@@ -1,19 +1,29 @@
-Feature: guru99 Demopage Login
+Feature: Liscio Login
 
-In order to Login in Demopage we have to enter login details
+In order to Login in Homepage we have to enter login details
 
-Scenario: Register On Guru99 Demopage without email
+Scenario: Login On Liscio Homepage without email
 
-Given I am on the Guru99 homepage
+Given I am on the Liscio homepage
 
-When enter blank details for Register
+When enter blank details for Login
 
 Then error email shown
 
-Scenario: Register On Guru99 Demopage with valid email
+Scenario: Login On Liscio Homepage with valid email
 
-Given I am on the Guru99 homepage
+Given I am on the Liscio homepage
 
-When enter details for Register
+When enter details for login
 
-Then login details shown
+Then compute the count
+
+#Scenario: Create task and count increased notification count
+
+#Given I am on the Liscio homepage 
+
+#When User enter Contact's login details
+
+#Then compute the count notification count on employee should increase
+
+
